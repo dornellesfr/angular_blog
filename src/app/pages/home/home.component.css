@@ -1,0 +1,21 @@
+* {
+  background-color: #121212;
+}
+
+.container-news-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.secondary {
+  grid-column: 2/3;
+}
+
+.card-sec {
+  height: fit-content;
+}
+
+hr {
+  width: 575px;
+  border: 0.5px solid #2A2A2A;
+}
